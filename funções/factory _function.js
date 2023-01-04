@@ -21,5 +21,18 @@ function criarCelular(marcaCelular, tamanhoTela, capacidadeBateria){
     }    
 }
 
+function carros(marca, modelo, velocidade){
+    return {
+        marca,
+        modelo,
+        velocidade,
+        criado(){
+            console.log('carro criado')
+        }
+    }
+}
+
+const carro1 = carros('Civic', 'honda',1200)
 const celular1 = criarCelular('Zenfone', 5.5, 5000);
 console.log(celular1)
+console.log(carro1)
