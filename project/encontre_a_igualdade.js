@@ -17,3 +17,4 @@ function saoiguais(endereco1, endereco2) {
 
 let sao = saoiguais(endereco1, endereco2)
 console.log(sao)
+
